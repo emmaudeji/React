@@ -1,11 +1,13 @@
 import "./App.css";
-import Router from "./Router/Router";
+// import Router from "./Router/Router";
+import ProjectIndex from "./RouterProject/ProjectIndex";
 
 function App() {
   return (
     <div className="App">
       {/* <header className="App-header"> */}
-      <Router />
+      {/* <Router /> */}
+      <ProjectIndex />
       {/* </header> */}
     </div>
   );

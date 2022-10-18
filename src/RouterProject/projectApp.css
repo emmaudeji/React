@@ -1,0 +1,11 @@
+.main {
+  height: 100%;
+}
+.footer {
+  position: absolute;
+  bottom: 0;  
+  background: blueviolet;
+  padding: 30px;
+  width: 100vw;
+  text-align: center;
+}
