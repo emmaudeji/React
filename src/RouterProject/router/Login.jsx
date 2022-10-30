@@ -34,7 +34,7 @@ export const LoginForm = () => {
   const auth = useAuth();
   const navigate = useNavigate()
   const location = useLocation()
-  const redirectPath = location.state?.path || '/home'
+  // const redirectPath = location.state?.path || '/home'
 
   const handleSubmit =  async e => {
     e.preventDefault();
