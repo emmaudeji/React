@@ -1,17 +1,23 @@
+import { Routes, Route } from "react-router-dom";
 import "./App.css";
-import MovieApp from "./React-Redux-MovieApp/MovieApp";
-// import Router from "./Router/Router";
-// import ProjectIndex from "./RouterProject/ProjectIndex";
+import Home from "./Home/Home";
+// import MovieApp from "./React-Redux-MovieApp/MovieApp";
+import Swiper from "./ReactSwiper/Swiper";
+import Navbar from "./common/Navbar";
+import Footer from "./common/Footer";
+import SearchBar from "./SearchBar/SearchBarApp";
 
 function App() {
   return (
-    <div className="App">
-      {/* <header className="App-header"> */}
-      {/* <Router /> */}
-      {/* <ProjectIndex /> */}
-      {/* </header> */}
-
-      <MovieApp />
+    <div className="">
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        {/* <Route path="movie" element={<MovieApp />} /> */}
+        <Route path="swipper" element={<Swiper />} />
+        <Route path="search_bar" element={<SearchBar />} />
+      </Routes>
+      <Footer />
     </div>
   );
 }
