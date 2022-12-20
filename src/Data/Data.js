@@ -34,6 +34,26 @@ export const navLinks = [
   },
   {
     id: 3,
+    link: "/darkmode",
+    title: "Darkmode",
+  },
+  {
+    id: 4,
+    link: "/form",
+    title: "Form",
+  },
+  {
+    id: 5,
+    link: "/curconverter",
+    title: "Converter",
+  },
+  {
+    id: 6,
+    link: "/search-btn",
+    title: "SearchTest",
+  },
+  {
+    id: 7,
     link: "/next",
     title: "Next",
   },

@@ -4,6 +4,7 @@ import Head from "./Head"
 import {navLinks} from "../Data/Data"
 
 
+
 const Header = () => {
   const navigate = useNavigate();
   const [click, setClick] = useState(false)

@@ -19,12 +19,16 @@ const PropertyCard = (props) => {
             {props.addToWishList}
             {props.editButton}
             {props.deleteButton}
-            <Link
-            to=""
-              className="rounded px-1 py-0 hover:bg-purple-700 transition-300"
-            >
-              View
-            </Link>
+            <div className="flex gap-2">
+                <Link
+              to=""
+                className="rounded px-1 py-0 hover:bg-purple-700 transition-300"
+              >
+                View
+              </Link>
+              {props.edit}
+              {props.delete}
+            </div>
           </div>
         </div>
         <div className="flex justify-between ">

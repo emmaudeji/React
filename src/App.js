@@ -6,6 +6,10 @@ import Swiper from "./ReactSwiper/Swiper";
 import Navbar from "./common/Navbar";
 import Footer from "./common/Footer";
 import SearchBar from "./SearchBar/SearchBarApp";
+import Darkmode from "./Dark mode/Darkmode";
+import Form from "./Forms/Form";
+import CurConverter from "./Forms/CurConverter";
+import SearchBtnTest from "./Forms/SearchBtnTest";
 
 function App() {
   return (
@@ -16,6 +20,10 @@ function App() {
         {/* <Route path="movie" element={<MovieApp />} /> */}
         <Route path="swipper" element={<Swiper />} />
         <Route path="search_bar" element={<SearchBar />} />
+        <Route path="darkmode" element={<Darkmode />} />
+        <Route path="form" element={<Form />} />
+        <Route path="curconverter" element={<CurConverter />} />
+        <Route path="search-btn" element={<SearchBtnTest />} />
       </Routes>
       <Footer />
     </div>
