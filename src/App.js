@@ -10,6 +10,7 @@ import Darkmode from "./Dark mode/Darkmode";
 import Form from "./Forms/Form";
 import CurConverter from "./Forms/CurConverter";
 import SearchBtnTest from "./Forms/SearchBtnTest";
+import ReactInterview from "./reactInterview/ReactInterview";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route path="form" element={<Form />} />
         <Route path="curconverter" element={<CurConverter />} />
         <Route path="search-btn" element={<SearchBtnTest />} />
+        <Route path="react-interview" element={<ReactInterview />} />
       </Routes>
       <Footer />
     </div>
