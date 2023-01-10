@@ -59,6 +59,11 @@ export const navLinks = [
   },
   {
     id: 8,
+    link: "/renderlist",
+    title: "RenderList",
+  },
+  {
+    id: 9,
     link: "/next",
     title: "Next",
   },

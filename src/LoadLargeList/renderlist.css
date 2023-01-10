@@ -1,0 +1,20 @@
+.post {
+  
+  margin: 2rem;
+  padding: 1rem;
+}
+
+.pagination {
+  margin: 1rem auto;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.active {
+  border: 1px solid white;
+  border-radius: 100%;
+  padding: 0 3px;
+  outline: none;
+}
